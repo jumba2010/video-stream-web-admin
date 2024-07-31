@@ -1,0 +1,6 @@
+{
+  "name": "ListAnouncement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ListAnouncement.js"
+}
