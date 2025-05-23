@@ -1,0 +1,89 @@
+// Here you can add other styles
+// Here you can add other styles
+
+#screenshotmini{
+    width: 9.5em;
+    height: 5.5em;
+    border-width: 0.5px;
+    border-color:deepskyblue;
+    background-color :whitesmoke;
+    align-content: center;
+   ;
+}
+
+span+span{
+    margin-left: 10px
+}
+
+#photo{
+    width: 100%;
+    height: 12em;  
+    object-fit: cover;
+    border-color:deepskyblue; 
+}
+
+.required{
+    font-size: 12px;
+    color: red
+}
+
+.details{
+  display: inline-block;
+  float: none;
+  vertical-align: middle
+}
+
+.grouping{
+margin-top: 20px
+}
+
+#book {
+    width: 100%;
+    height: 14em; 
+    object-fit: cover;
+    border-color:deepskyblue; 
+}
+
+#banner {
+    width: 100%;
+    height: 6em;
+    object-fit: cover;
+    border-color:deepskyblue; 
+}
+
+
+#upload {
+margin-top: 30px
+}
+
+#playVideo{margin-bottom: 50px}
+
+.Dropzone {
+    height: 300px;
+    color: darkgrey;   
+    width: 95%;
+    border: 2px;
+    border-style: dashed;
+    border-radius: 0%;
+    border-color:rgb(208, 224, 230); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+  }
+  
+  .Highlight {
+    background-color: rgb(188, 185, 236);
+  }
+  
+  .Icon {
+    opacity: 0.3;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .FileInput {
+    display: none;
+  }
+  

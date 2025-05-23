@@ -1,0 +1,6 @@
+{
+  "name": "ListWorkers",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ListWorkers.js"
+}
