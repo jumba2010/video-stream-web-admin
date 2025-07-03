@@ -22,7 +22,7 @@ import {
 } from '@coreui/icons'
 import CIcon from '@coreui/icons-react'
 
-import avatar8 from './../../assets/images/avatars/8.jpg'
+import avatar8 from './../../assets/images/avatars/1.png'
 
 const AppHeaderDropdown = () => {
   return (
@@ -34,59 +34,59 @@ const AppHeaderDropdown = () => {
         <CDropdownHeader className="bg-body-secondary fw-semibold mb-2">Account</CDropdownHeader>
         <CDropdownItem href="#">
           <CIcon icon={cilBell} className="me-2" />
-          Updates
+          Actualizações
           <CBadge color="info" className="ms-2">
-            42
+            0
           </CBadge>
         </CDropdownItem>
         <CDropdownItem href="#">
           <CIcon icon={cilEnvelopeOpen} className="me-2" />
-          Messages
+          Mensagens
           <CBadge color="success" className="ms-2">
-            42
+            0
           </CBadge>
         </CDropdownItem>
         <CDropdownItem href="#">
           <CIcon icon={cilTask} className="me-2" />
-          Tasks
+          Tarefas
           <CBadge color="danger" className="ms-2">
-            42
+            0
           </CBadge>
         </CDropdownItem>
         <CDropdownItem href="#">
           <CIcon icon={cilCommentSquare} className="me-2" />
-          Comments
+          Comentarios
           <CBadge color="warning" className="ms-2">
-            42
+            0
           </CBadge>
         </CDropdownItem>
         <CDropdownHeader className="bg-body-secondary fw-semibold my-2">Settings</CDropdownHeader>
         <CDropdownItem href="#">
           <CIcon icon={cilUser} className="me-2" />
-          Profile
+          Perfil
         </CDropdownItem>
         <CDropdownItem href="#">
           <CIcon icon={cilSettings} className="me-2" />
-          Settings
+          Definições
         </CDropdownItem>
         <CDropdownItem href="#">
           <CIcon icon={cilCreditCard} className="me-2" />
-          Payments
+          Pagamentos
           <CBadge color="secondary" className="ms-2">
-            42
+            0
           </CBadge>
         </CDropdownItem>
         <CDropdownItem href="#">
           <CIcon icon={cilFile} className="me-2" />
-          Projects
+          Projectos
           <CBadge color="primary" className="ms-2">
-            42
+            0
           </CBadge>
         </CDropdownItem>
         <CDropdownDivider />
         <CDropdownItem href="#">
           <CIcon icon={cilLockLocked} className="me-2" />
-          Lock Account
+          Sair
         </CDropdownItem>
       </CDropdownMenu>
     </CDropdown>
